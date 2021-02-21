@@ -2,7 +2,7 @@ const request = require('request')
 const fs = require('fs-extra')
 const chalk = require('chalk')
 const moment = require('moment-timezone')
-moment.tz.setDefault('Asia/Jakarta').locale('id')
+moment.tz.setDefault('America/Sao_paulo').locale('id')
 
 /**
  * Get text with color
